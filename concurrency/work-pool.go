@@ -10,7 +10,7 @@ type producers struct {
 	queue chan string
 }
 
-func main() {
+func multi2multiWithoutWg() {
 	const (
 		producerCount int = 3
 		consumerCount int = 3

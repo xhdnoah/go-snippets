@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func main() {
+func multi2multi() {
 	const producerCount int = 5
 	const consumerCount int = 3
 	link := make(chan string)
